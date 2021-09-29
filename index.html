@@ -1,25 +1,118 @@
-/* portfolio styles */
-.content h1 {
-    color: black;
-}
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Amya's Website</title>
+        <style>
+            body {
+                background: rgb(204, 56, 167)
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+        
+            /* navigation menu */
+            nav {
+                background: rgb(236, 132, 184);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+      <!-- All content goes here -->
+    <div>
+        ...
+    </div id="all-contents">
+    </body>
+      <div> 
+        <nav>
+            <h1>Amya's Dazzling Website</h1>
+            <ul id="nav-ul" >
+                <li class="nav-li" >
+                  <a href="index.html"> Home </a>
+                </li>
+                <li class="nav-li">
+                  <a href="portfolio.html"> Portfolio </a>
+                </li>
+            </ul>
+        </nav>
 
-#portfolio {
-    list-style-type: none;
-    padding-left: 0;
-}
+        <main>
+            <!-- Sidebar section -->
+            <div class="sidebar">
+                <img class="sidebar-img">
+            </div>
+    <div>
+        <img scr="https://i.pinimg.com/originals/bd/cd/4e/bdcd4e097d609543724874b01aa91c76.png"
+    </div>
+      <h2>Amya Jackson
+          <p>Student at Madison High School</p>
+      </h2>
+    </div>
 
-#portfolio li {
-    background: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-#portfolio li:hover {
-    background: #eee;
-} 
-
-#portfolio a {
-    text-decoration: none;
-    color: #454545;
-}
+    <!-- Content section -->
+    <div>
+      <!-- Interests section -->
+      <div>
+        <h3>Interests</h3>
+        <ul>
+            <li>Watching TV</li>
+            <li>CHeerleading</li>
+            <li>Playing With Dogs</li>
+        </ul>
+      </div>
+    </div>
+        </main>
+    </div>
+</body>
+    </body>
+</html>
