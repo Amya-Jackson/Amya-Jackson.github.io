@@ -1,112 +1,25 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-      <title>Amya's Website</title>
-      <style>
-    body {
-        background: rgb(207, 96, 96);
-        color: rgb(45, 45, 45);
-        padding: 10px;
-        font-family: arial;
-    }
-    #all-contents {
-        max-width: 800px;
-        margin: auto;
-    }
+/* portfolio styles */
+.content h1 {
+    color: black;
+}
 
-    /* navigation menu */
-    nav {
-        background: rgb(201, 24, 133);
-        margin: 0 auto;
-        display: flex;
-        padding: 10px;
-        margin: 0 auto;
-        margin-bottom: 20px;
-        border-radius: 50px;
-    }
-    h1 {
-        display: flex;
-        align-items: center;
-        color: rgb(230, 229, 213);
-        flex: 1;
-        margin: 0;
-    }
-    #nav-ul {
-        list-style-image: none;
-    }
-    .nav-li {
-        display: inline-block;
-        padding: 0 10px;
-    }
-    a {
-        text-decoration: none;
-        color: #fff;
-    }
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
 
-    /* main container area beneath menu */
-    main {
-        background: rgb(245, 238, 219);
-        display: flex;
-    }
-    .sidebar {
-        margin-right: 25px;
-        padding: 10px;
-    }
-    .sidebar-img {
-        width: 200px;
-    }
-    .content {
-        flex: 1;
-        padding: 15px;
-    }
-    #interests {
-        border: 4px silver ridge;
-        padding: 8px;
-    }
-    h2, h3 {
-        margin: 0px;
-    }
-</style>
-    </head>
-    
-    <body>
-      <div id="all contents">
+#portfolio li {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
 
-          <nav>
-            
-            <h1>Amya's Dazzling Website</h1>
-            <ul id="nav-ul">
-                <li class="nav-li">
-                  <a class="nav-a" href="index.html">Home</a>
-                </li>
-                <li class="nav-li">
-                  <a class="nav-a" href="portfolio.html">Portfolio</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+#portfolio li:hover {
+    background: #eee;
+} 
 
-          <main>
-              <!--Sidebar section-->
-              <div class="sidebar">
-                    <img class="sidebar-img" src="https://i.pinimg.com/originals/bd/cd/4e/bdcd4e097d609543724874b01aa91c76.png"
-              </div>
-
-              <!--Content section-->
-              <div class="content">
-                  <h2>Amya Jackson</h2>
-                  <p>Student at Madison High School</p>
-                  <!-- Interests section -->
-                  <div id="interests">
-                      <h3>Interests</h3>
-                      <ul>
-                          <li>Cheering</li>
-                          <li>Watching TV</li>
-                          <li>Playing with dogs</li>
-                      </ul>
-                  </div>
-              </div>
-          </main>
-      </div>
-    </body>
-</html>
+#portfolio a {
+    text-decoration: none;
+    color: #454545;
+}
